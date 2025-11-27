@@ -12,7 +12,7 @@ export default function DetalhesScreen() {
                 Parâmetro Recebido (Slug):
             </Text>
             <Text style={styles.slugValue}>
-                **{slug || 'Nenhum Parâmetro'}**
+                {slug || 'Nenhum Parâmetro'}
             </Text>
         </View>
     );
